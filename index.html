@@ -10,7 +10,7 @@
 </head>
 <body data-bs-theme="dark">
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary position-fixed" tabindex="100">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" tabindex="100">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Yan Rodrigues</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,17 +19,145 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Quem é Yan?</a>
-                  <a class="nav-link" href="#">Projetos</a>
-                  <a class="nav-link" href="#">Contatos</a>
+                  <a class="nav-link" href="#projects">Projetos</a>
+                  <a class="nav-link" href="#contatos">Contatos</a>
                 </div>
               </div>
             </div>
           </nav>
     </header>
     <main>
-        <div class="container">
+      <div class="container"><br>
+        <div class="container px-4 text-center">
+          <div class="row gx-5">
+            <div class="col">
+             <div class="p-3">
+              <div class="container-md">
+                  <h1>Quem é <span class="badge text-bg-secondary">Yan?</span></h1>
+                  <div class="col-md-4" style="margin:0 auto;display: flex;">
+                    <div class="card mb-4 shadow-sm" >
+                      <img class="card-img-top" src="./src/assets/yan.jpg"  data-holder-rendered="true">
+                    </div>
+                  </div>
+                  <p class="lead text-muted">
+                  Sou um entusiasta da tecnologia apaixonado por criar experiências digitais cativantes. Com uma formação sólida em Ciência da Computação e anos de experiência prática, meu objetivo é moldar a web de amanhã com inovação e criatividade.
+                  </p>
+                  <p>
+                    <a href="#projects" class="btn btn-primary my-2">Contatos</a>
+                    <a href="#graduacao" class="btn btn-secondary my-2">Graduação</a>
+                  </p>
+              </div>
+             </div>
+            </div>
+            <div class="col text-center">
+              <div class="p-3">
+                <p class="fs-5 lead text-muted">
+                  Desde os meus primeiros passos na programação, fui cativado pela infinita possibilidade de transformar ideias em realidade através do código. Minha jornada começou com simples páginas estáticas e evoluiu para aplicativos web dinâmicos e responsivos, sempre buscando alcançar os mais altos padrões de qualidade e usabilidade.
+                </p>
+                <p class="fs-5 lead text-muted">
+                  Com habilidades sólidas em HTML, CSS e JavaScript, sou capaz de construir interfaces elegantes e funcionais que não apenas impressionam visualmente, mas também oferecem uma experiência fluida para os usuários. Além disso, estou constantemente atualizado com as últimas tendências e tecnologias, garantindo que minhas criações estejam sempre à frente do jogo.
+                </p>
+                <p class="fs-5 lead text-muted">
+                  Minha abordagem para o desenvolvimento web é centrada no usuário, priorizando a acessibilidade, a velocidade e a intuitividade. Acredito firmemente que uma ótima experiência digital pode transformar a maneira como as pessoas interagem com marcas e conteúdos online, e estou comprometido em fazer minha parte para tornar a web um lugar melhor para todos.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+
+
+        
+
+        <div class="row" id="projects">
+          <br><h1 class="text-center">Projetos</h1> <hr>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="./src/assets/project1.jpg" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Plataforma de e-commerce chamada "TechTrends" para uma empresa de tecnologia líder no mercado. Esta plataforma oferece uma experiência de compra online intuitiva e envolvente para os clientes, com recursos avançados de busca, recomendação de produtos e checkout simplificado. Além disso, integrei sistemas de pagamento seguro e gerenciamento de estoque em tempo real para garantir uma operação eficiente e confiável. O resultado foi um aumento significativo nas vendas e na satisfação do cliente.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="./src/assets/project2.png" data-holder-rendered="true">
+              <div class="card-body">
+                <p class="card-text">Projeto pessoal, criei o aplicativo "TaskMaster" para ajudar indivíduos e equipes a gerenciar suas tarefas de forma mais eficaz. Este aplicativo apresenta uma interface intuitiva e amigável, permitindo aos usuários criar, atribuir e acompanhar tarefas com facilidade. Além disso, incluí recursos avançados, como notificações em tempo real, categorização de tarefas e colaboração em equipe. O "TaskMaster" tem sido elogiado por sua simplicidade e eficácia, tornando-se uma ferramenta indispensável para muitos usuários.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img class="card-img-top" src="src/assets/project3.jpg">
+              <div class="card-body">
+                <p class="card-text"> Em colaboração com um restaurante local, desenvolvi o sistema de reservas online "FoodBooker" para simplificar o processo de reserva de mesas e pedidos de alimentos. Este sistema permite que os clientes façam reservas de forma conveniente através do site do restaurante ou de um aplicativo móvel dedicado. Além disso, integrei funcionalidades como feedback dos clientes, gestão de filas de espera e notificações automáticas para garantir uma experiência de reserva perfeita. Desde o lançamento do "FoodBooker", o restaurante experimentou um aumento significativo no número de reservas e na satisfação dos clientes.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Editar</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+
+      <div class="container-md" id="graduacao">
+        <br><h1 class="text-center">Graduação - ADS/FATEC</h1> <hr>
+        <div class="col text-center">
+          <div class="p-3">
+            <p class="fs-5 lead text-muted">
+              Esta barra é responsável por mostrar o processo de graduação em Análise e Desenvolvimento de Sistemas, os números representam a quantidade de anos do curso.
+            </p>
+          </div>
+        </div>
+        <div class="position-relative m-4">
+          <div class="progress" role="progressbar" aria-label="Progress" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="height: 1px;">
+            <div class="progress-bar" style="width: 50%"></div>
+          </div>
+          <button type="button" class="position-absolute top-0 start-0 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">1</button>
+          <button type="button" class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill" style="width: 2rem; height:2rem;">2</button>
+          <button type="button" class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill" style="width: 2rem; height:2rem;">3</button>
+        </div>
+
+        <div class="container-md" id="contatose">
+          <h1 class="text-center">Contatos</h1>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Email: contato@yanrodrigues.com.br</li>
+            <li class="list-group-item">Github: @yanrodrigues205</li>
+            <li class="list-group-item">Instagram: @yan_yan</li>
+            <li class="list-group-item">X: @yyyy</li>
+            <li class="list-group-item">Facebook: Yan Rodrigues</li>
+          </ul>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    
+    <footer class="text-muted"><br><br><hr><br><br>
+      <div class="container">
+        <p>Este site foi montado com a ferramenta de desenvolvimento Bootstrap, todos os direitos reservados a Yan Pablo Rodrigues pela montagem do site. ©</p>
+        <p>Caso suja necessidade seja algo parecido, entre em contato!</p>
+      </div>
+    </footer>
+    
+  
 </body>
 </html>
